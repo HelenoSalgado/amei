@@ -1,0 +1,14 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "amei"
+main = "src/main.ts"
+compatibility_date = "2024-07-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "amei"
+database_id = "56b09680-ed20-46bb-90bd-114cdf2d8c06"
+preview_database_id = "DB"
+
+[env.production.vars]
+API_HOST = "https://utils-production-bed1.up.railway.app/"

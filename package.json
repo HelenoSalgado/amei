@@ -15,7 +15,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.4.5",
+    "@cloudflare/vitest-pool-workers": "^0.9.13",
     "@cloudflare/workers-types": "^4.20240620.0",
     "@types/node": "^20.14.10",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -30,7 +30,7 @@
     "ts-node": "^10.0.0",
     "tsconfig-paths": "4.2.0",
     "typescript": "^5.5.2",
-    "vitest": "1.5.0",
-    "wrangler": "^3.60.3"
+    "vitest": "3.2.4",
+    "wrangler": "^4.43.0"
   }
 }
